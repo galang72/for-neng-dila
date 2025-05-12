@@ -195,33 +195,6 @@ p{
 	background-color: rgb(104, 211, 17);
 }
 
-@media (max-width: 768px) {
-  .book {
-    position: relative;
-    width: 90%;
-    height: auto;
-    flex-direction: column;
-    align-items: center;
-    transform: none !important;
-  }
-
-  .face-front,
-  .face-back {
-    width: 100%;
-    height: auto;
-  }
-
-  .book-content {
-    perspective: none;
-  }
-
-  img {
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-  }
-}
-
 
 
 
