@@ -195,7 +195,29 @@ p{
 	background-color: rgb(104, 211, 17);
 }
 
+.book {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 10px 0;
+  gap: 10px;
+}
 
+.face-front, .face-back {
+  width: 300px;
+  max-width: 90vw;
+  box-sizing: border-box;
+}
+
+/* Responsif di layar kecil (HP) */
+@media (max-width: 600px) {
+  .book {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 
 
 
