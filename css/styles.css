@@ -23,10 +23,11 @@ p{
 	background:linear-gradient(rgb(78, 76, 76),rgb(180, 174, 174));
 }
 .book-content{
-	width: 65%;
-	min-width: 250px;
+	width: 90%;
+	min-width: 400px;
 	max-width: 400px;
-	height: 330px;
+	height: auto;
+	aspect-ratio: 4/3; /*Rasio proposional */
 	position: relative;
 	perspective: 1000px;
 	transition: 1s;
